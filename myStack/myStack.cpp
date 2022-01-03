@@ -39,7 +39,7 @@ myStack<T>::myStack(){
 }
 template <class T>
 myStack<T>::~myStack(){
-    while(this->cur == nullptr) {
+    while(this->cur != nullptr) {
         this->pop();
         this->cur = this->cur->prev;
     }
