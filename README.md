@@ -5,7 +5,7 @@ This repository contains my implementations of some of the data structures, incl
 
 A data structure that works on the LIFO (last in - first out) principle. Built with a templated class. The operations of insert O (1), delete O (1), access O (1) are defined.
 
-**Queue**
+**Deque**
 
 A linear collection that supports element insertion and removal at both ends. The name deque is short for "double ended queue". Combines stack and queue properties.
 The operations of insert O (1), delete O (1), access O (1) are defined.
