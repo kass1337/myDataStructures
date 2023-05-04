@@ -37,7 +37,7 @@ public:
             }
             if (t->right)
             {
-                hl = getBalHelp(t->right);
+                hr = getBalHelp(t->right);
             }
             return std::max(hr, hl) + 1;
         }
